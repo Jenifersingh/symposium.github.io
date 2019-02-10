@@ -1,11 +1,10 @@
 .box{
-	width: 200px;
+	width: 400px;
 	margin: 0 auto;
 	position: relative;
-	border: 1px solid transparent;
 	perspective: 1000px
 }
-.box .box-img img{
+.box .papertrax-img img{
 	transform: rotateY(0);
 	transition: all 0.5s ease-in-out 0s;
 }
